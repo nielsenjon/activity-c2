@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5CF8E;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  display flex;
+  width: 100%;
+  background-color: lightgray;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+em {
+  background-color: lightpink;
+}
+
+.intro {
+  margin-bottom: 10px;
+}
+
+.begin {
+  display: flex;
+  width: 100%;
+}
+
+.end {
+  display: flex;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 25px 0 25px;
+}
+
+.button:link,
+.button:visited {
+
+  text-decoration: none;
+
+  color: #38230A;
+  background-color: #B66708;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  border: 5 #0CF553;
+
+  width:100px;
+  margin-bottom: 20px;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: red;
+}
+
+.button:active,
+.button:visited:active {
+  color: purple;
+  background-color: #B66708;
+}
+
+.button-return {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #E4DE15;
+}
+
+.bottom-header {
+  display: flex;
+  width: 100%;
+}
+
+.bottom-page {
+  display: flex;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+
+  justify-content: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 1050px;
+    margin: auto;
+  }
+}
